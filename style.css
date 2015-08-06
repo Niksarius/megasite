@@ -1,0 +1,109 @@
+.body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.header{
+}
+
+.image{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.image div{
+	height: 100% !important;
+	width: 100% !important;
+}
+.image ul{
+	height: 100% !important;
+	width: 100% !important;
+}
+.image li{
+	height: 100% !important;
+	width: 100% !important;
+}
+
+.uk-slidenav-next::before {
+    content: ">" !important;
+    font-family: FontAwesome;
+}
+
+.uk-slidenav-previous::before {
+        content: "<" !important;
+    font-family: FontAwesome;
+}
+
+.slide-button1{
+	position: fixed;
+	bottom: 10%;
+	left: 40%;
+}
+
+.slide-button2{
+	position: fixed;
+	bottom: 10%;
+	left: 50%;
+}
+
+.slide-button3{
+	position: fixed;
+	bottom: 10%;
+	left: 60%;
+}
+
+.text{
+	color: white;
+    font-family: Courier New;
+    font-size: 50px;
+    left: 50%;
+    line-height: 40px;
+    margin-left: -250px;
+    margin-top: -20px;
+    min-width: 515px;
+    position: fixed;
+    top: 50%;
+}
+
+.social{
+	right: 10%;
+    position: fixed;
+    top: 4%;
+	width: 230px;
+}
+
+.vk{
+	background-image: url(vk.png);
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-right: 10px;
+} 
+.twitter{
+	background-image: url(twiter.png);
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-right: 10px;
+}
+
+.instagram{
+	background-image: url(instagram.png);
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-right: 10px;
+}
+
+.twich{
+	background-image: url(twich.png);
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-right: 10px;
+}
+
+.uk-grid { 
+  padding: 50px; 
+}
